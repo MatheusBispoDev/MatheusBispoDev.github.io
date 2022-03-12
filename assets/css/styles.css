@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 380; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -407,9 +407,8 @@ img {
 
 /*==================== ABOUT ====================*/
 
-.about__img {
-  width: 200px;
-  border-radius: 0.5rem;
+.about__lottie {
+  width: 300px;
   justify-self: center;
   align-self: center;
 }
@@ -1081,7 +1080,7 @@ img {
     column-gap: 5rem;
   }
 
-  .about__img {
+  .about__lottie {
     width: 350px;
   }
 

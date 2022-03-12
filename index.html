@@ -14,7 +14,7 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Portifólio - Matheus Bispo</title>
+    <title>Portfólio - Matheus Bispo</title>
 </head>
 
 <body>
@@ -138,11 +138,14 @@
             <span class="section__subtitle">Minha introdução</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"
+                    background="transparent" speed="1" class="about__lottie" loop autoplay>
+                </lottie-player>
 
                 <div class="about__date">
                     <p class="about__description">3 anos de experiência de mercado de trabalho e vários projetos
-                        pessoais desevolvidos em Java, c#, Flutter e Dart, HTML / CSS e JavaScript, SQL e ADVPL
+                        pessoais desevolvidos em Java, C#, Flutter e Dart, HTML / CSS e JavaScript, SQL e ADVPL
                     </p>
 
                     <div class="about__info">
@@ -262,7 +265,17 @@
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">ADVPL e Protheus</h3>
+                                    <h3 class="skills__name">Comunicativo e Colaborativo</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Proativo e Descontraído</h3>
                                     <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
@@ -272,8 +285,8 @@
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Java</h3>
-                                    <span class="skills__number">50%</span>
+                                    <h3 class="skills__name">Fácil adaptação</h3>
+                                    <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -282,8 +295,8 @@
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">C#</h3>
-                                    <span class="skills__number">50%</span>
+                                    <h3 class="skills__name">Trabalhar sob pressão</h3>
+                                    <span class="skills__number">60%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -292,18 +305,8 @@
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Sql</h3>
+                                    <h3 class="skills__name">Organizado</h3>
                                     <span class="skills__number">90%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Dart</h3>
-                                    <span class="skills__number">55%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -576,7 +579,7 @@
 
                             <div>
                                 <h3 class="qualification__title">Cursos Alura</h3>
-                                <span class="qualification__subtitle">Formação Fluuter;<br>Git/GitHub; <br>SOLID/Clean
+                                <span class="qualification__subtitle">Formação Flutter;<br>Git/GitHub; <br>SOLID/Clean
                                     Code;
                                     <br>HTML, CSS e JavaScript; <br> Angular e TyperScript;</span>
                                 <div class="qualification__calendar">
@@ -772,22 +775,24 @@
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portifólio</h2>
+            <h2 class="section__title">Portfólio</h2>
             <span class="section__subtitle">Meus projetos desenvolvidos</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--==================== PORTFOLIO 1 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <img src="" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">ALERT</h3>
-                            <p class="portfolio__description">Aplicativo mobile informativo sobre 
-                                LERS (Lesões por esforço repetitivo) desenvolvido em Dart/Flutter para o Trabalho de Conclusão de Curso de graduação (TCC).</p>
+                            <p class="portfolio__description">Aplicativo mobile informativo sobre
+                                LERS (Lesões por esforço repetitivo) desenvolvido em Dart/Flutter para o Trabalho de
+                                Conclusão de Curso de graduação (TCC).</p>
 
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
+                            <a class="button button--flex button--small portfolio__button"
+                                href="https://github.com/MatheusBispoDev/ALERT" target="_blank">
+                                Acessar no GitHub
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -803,7 +808,7 @@
                                 and animated interactions.</p>
 
                             <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
+                                Acessar no GitHub
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -819,7 +824,7 @@
                                 and animated interactions.</p>
 
                             <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
+                                Acessar no GitHub
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
@@ -878,22 +883,23 @@
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Nome</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" class="contact__input" placeholder="Bruno">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" class="contact__input" placeholder="seuemail@dominio.com">
                         </div>
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">Assunto</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" class="contact__input" placeholder="Proposta">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Mensagem</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"
+                            placeholder="Olá, Boa tarde ..."></textarea>
                     </div>
 
                     <div>
@@ -918,13 +924,13 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#services" class="footer__link">Serviços</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#portfolio" class="footer__link">Portfólio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact</a>
+                        <a href="#contact" class="footer__link">Contato</a>
                     </li>
                 </ul>
 
@@ -941,7 +947,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+            <p class="footer__copy">&#169; Matheus Bispo. All right reserved</p>
         </div>
     </footer>
 
