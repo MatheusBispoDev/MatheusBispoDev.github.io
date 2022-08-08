@@ -41,8 +41,8 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Seviços
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Trajetória
                         </a>
                     </li>
                     <li class="nav__item">
@@ -83,10 +83,6 @@
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="https://dribbble.com/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-dribbble"></i>
-                        </a>
-
                         <a href="https://github.com/MatheusBispoDev" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
@@ -121,15 +117,6 @@
                         </a>
                     </div>
                 </div>
-
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Role para baixo</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                    </a>
-                </div>
-            </div>
         </section>
 
         <!--==================== ABOUT ====================-->
@@ -138,7 +125,7 @@
             <span class="section__subtitle">Minha introdução</span>
 
             <div class="about__container container grid">
-                
+
                 <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"
                     background="transparent" speed="1" class="about__lottie" loop autoplay>
                 </lottie-player>
@@ -344,7 +331,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Java</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">20%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -354,7 +341,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">C#</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">20%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -410,7 +397,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">DevOps</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">40%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -420,7 +407,17 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Cloud (AWS)</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Azure</h3>
+                                    <span class="skills__number">20%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -450,7 +447,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">UI / UX</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">20%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -460,7 +457,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Adobe XD</h3>
-                                    <span class="skills__number">60%</span>
+                                    <span class="skills__number">40%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -470,7 +467,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Figma</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">40%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -480,7 +477,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Conhecimentos Fiscais (ICMS, IPI, PIS/COFINS, ...)</h3>
-                                    <span class="skills__number">50%</span>
+                                    <span class="skills__number">60%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage"></span>
@@ -494,7 +491,7 @@
         </section>
 
         <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
+        <section class="qualification section" id="qualification">
             <h2 class="section__title">Trajetória</h2>
             <span class="section__subtitle">Minha história pessoal</span>
 
@@ -648,131 +645,6 @@
             </div>
         </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-            <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">Whay i offer</span>
-
-            <div class="services__container container grid">
-                <!--==================== SERVICES 1 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-web-grid services__icon"></i>
-                        <h3 class="services__title">UI/UX <br> Designer</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">UI/UX <br> Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 2 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-arrow services__icon"></i>
-                        <h3 class="services__title">Frontend <br> Developer</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 3 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-pen services__icon"></i>
-                        <h3 class="services__title">Branding <br> Designer</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Branding <br> Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfólio</h2>
@@ -808,9 +680,12 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">SGE</h3>
-                            <p class="portfolio__description">SGE - Sistema de Gerenciamento Escolar foi um software desenvolvido 
-                                para fazer a gestão e controle de uma ambiente escolar. Desevolvido em C# e SQL o sistema conta com funcionalidades 
-                                de cadastro e gestão de Professores, Alunos (notas e presença) e dos Administradores (secretária).</p>
+                            <p class="portfolio__description">SGE - Sistema de Gerenciamento Escolar foi um software
+                                desenvolvido
+                                para fazer a gestão e controle de uma ambiente escolar. Desevolvido em C# e SQL o
+                                sistema conta com funcionalidades
+                                de cadastro e gestão de Professores, Alunos (notas e presença) e dos Administradores
+                                (secretária).</p>
 
                             <a href="#" class="button button--flex button--small portfolio__button">
                                 Acessar no GitHub
@@ -827,8 +702,10 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Caseirinhas</h3>
-                            <p class="portfolio__description">Esse aplicativo pessoal desenvolvido em Flutter e Dart, apresenta um design atual
-                                e minimalista para pequenas empreendedoras no ramo de doces que não sabem Administrador suas vendas e orçamento.
+                            <p class="portfolio__description">Esse aplicativo pessoal desenvolvido em Flutter e Dart,
+                                apresenta um design atual
+                                e minimalista para pequenas empreendedoras no ramo de doces que não sabem Administrador
+                                suas vendas e orçamento.
                                 O aplicativo ofecere controle de vendas, produtos e relatórios de lucros.</p>
 
                             <a href="#" class="button button--flex button--small portfolio__button">
@@ -911,7 +788,7 @@
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <a href="#" class="button button--flex" onclick="sendMail()">
                             Enviar Mensagem
                             <i class="uil uil-message button__icon"></i>
                         </a>
@@ -932,25 +809,24 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Serviços</a>
+                        <a href="#skills" class="footer__link">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="footer__link">Trajetória</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Portfólio</a>
                     </li>
-                    <li>
-                        <a href="#contact" class="footer__link">Contato</a>
-                    </li>
                 </ul>
 
                 <div class="footer__social">
-                    <a href="https://facebook.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook-f"></i>
+                    <a href="https://www.linkedin.com/in/matheus-bispo-b877801b9/" target="_blank"
+                        class="footer__social" class="home__social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
                     </a>
-                    <a href="https://instagram.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+
+                    <a href="https://github.com/MatheusBispoDev" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
             </div>
@@ -970,6 +846,9 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!--==================== EMAIL SUBMIT ====================-->
+    <script src="assets/js/email.js"></script>
 </body>
 
 </html>
